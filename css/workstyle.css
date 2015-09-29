@@ -1,9 +1,39 @@
-
 .container {
+    
     margin: 0 auto;
     width:  1024px;
 }
 
+.work-header{
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px grey;
+    width:1024;
+    height: 70px;
+    background-color: #2ecc71;
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px; 
+}
+.portfolio ul li{
+    display: inline;
+    text-decoration: none;
+    font-size: 18px;
+    color: #8a8888;
+    text-transform: uppercase;
+}
+.portfolio ul{
+    word-spacing: 3px;
+}
+.portfolio ul a{
+    text-decoration: none;
+}
+
+
+.portfolio a:hover{
+    opacity: 0.3;
+}
 .main {
     border-bottom: 1px solid #dadada;
     padding:30px 0px;
@@ -33,69 +63,17 @@
 .nav ul li a:hover {
     color: #2ecc71;
 }
-.slider img{
-    border-radius: 20px;
-    box-shadow: 10px 10px 25px grey;
-}
-.text p{
-    padding-top: 49px;
-    margin: auto;
-    width:746px;
-    height: 39px;
-    line-height: 24px;
-    color: #aeadad;    
-}
-.text button {
-	border: none;
-	border-radius:10px;
-    display: block;
-    color: white;
-    background-color: #2ecc71;
-    margin: 27px auto 49px auto;
-    padding:10px 15px;
-}
-.vidsection{
-    color: #aeadad;
-    padding: 10px 40px;
-    margin: auto;
-    
-}
 
-.vidsection img{
-    border-radius: 30px;
-    float:left;
-    padding: 10px;
-}
-
-.vidsection p h3{
-    float: left;
-    padding: 10px;  
-}
-
-.portfolio h3{
-    color:#aeadad;
-    margin: 0 auto;
-    clear: both;
-    padding:10px 50px;
-    text-align:center;
-}
-.portfolio p{
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 200px;
-}
 .overlay h3,p{
     padding: 10px;
     text-align: center;
     color: #8a8888;
 }
-.overlay a:hover{
-    opacity: 0.1;
-}
+
 .callout{
     border-radius: 10px;
     width: 1024px;
-    height: 140px;
+    height: 100px;
     color: #efefef;
     background-color: #322f2f;
 }
@@ -103,14 +81,14 @@
 .callout h3{
     text-transform: uppercase;
     padding-left: 160px;
-    padding-top: 50px;
+    padding-top: 26px;
     color:white;
     float:left;
      
 }
 .callout button{
     padding: 10px;
-    margin: 60px;
+    margin: 35px;
     float:right;
 	border:none;
 	color:white;
