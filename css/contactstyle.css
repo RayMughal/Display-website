@@ -18,38 +18,6 @@
     clear: both;
 }
 
-.forminfo{
-}
-.contactForm {
-    width: 560px;
-    height: auto;
-    float: left;
-    
-}
-.contactForm h3{
-    text-transform: uppercase;
-    color: #8a8888;
-    
-}
-.contactForm p{
-    line-height: 25px;
-    float: left;
-}
-
-.contactForm form{
-    float: left; 
-}
-.contactForm input{
-    width: 350px;
-    height: 45px;
-     border: 1px solid grey;
-    margin-top:10px;
-}
-.contactInfo{
-    width: 254px;
-    height: auto;
-    float: left;
-}
 .main {
     border-bottom: 1px solid #dadada;
     padding:30px 0px;
@@ -79,18 +47,70 @@
     color: #2ecc71;
 }
 
-.overlay h3,p{
-    padding: 10px;
-    text-align: center;
-    color: #8a8888;
-
-}
-
-.callout{
+.contactForm {
+    width: 560px;
+    height: auto;
+    float: left;
     
+}
+.contactForm h3{
+    text-transform: uppercase;
+    text-align: left;
+    color: #8a8888;
+}
+.contactForm p{
+    text-align: left;
+}
+.contactForm form{
+    float: left;
+    margin:0;
+    
+}
+.contactForm input{
+    border-radius: 10px;
+    width: 350px;
+    height: 45px;
+    border: 2px dotted #2ecc71;
+    margin-top:10px;
+}
+.contactForm textarea{
+    border-radius: 10px;
+    margin-top:10px;
+    border:2px dotted #2ecc71;
+}
+.contactForm button {
+    margin-top:10px;
+    float: left;
+    clear:both;
+    padding: 10px;
+ 	border:none;
+	color:white;
+	border-radius:12px;
+    text-transform: capitalize;
+    background-color: #2ecc71;
+}
+.contactInfo{
+    float:left;
+}
+.contactInfo h3{
+    
+    color: #8a8888;
+    text-transform: uppercase;
+    text-align: left;
+}
+.contactInfo p{
+    text-align: left;
+    
+}
+.contactInfo span{
+    color:#2ecc71;
+}
+.callout{
+    margin-top:600px;
+    clear: both;
     border-radius: 10px;
     width: 1024px;
-    height: 100px;
+    height: 90px;
     color: #efefef;
     background-color: #322f2f;
 }
